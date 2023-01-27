@@ -1,0 +1,92 @@
+body {
+    background-color: #4dc0ed;
+}
+
+.navbar {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    background-color: rgb(50, 49, 49);
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    margin-right: 20px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.alert {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.nav-link[href='/cart'] {
+    background-color: #3f9adf;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+ 
+
+}
+
+.container {
+    background-color: #c0dced;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-link[href='/melons'] {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.nav-link[href='/login'], .nav-link[href='/logout'] {
+    background-color: #f44336;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.card-text-center {
+    width: 25%;
+ }
+ 
+ .melon-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border-color: black;
+ }
+ #melon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ 
+ #melon-list a {
+    color: blue;
+    text-decoration: none;
+ }
+ li {
+    list-style: none;
+ }
+ a:link {
+    color: black
+ }
